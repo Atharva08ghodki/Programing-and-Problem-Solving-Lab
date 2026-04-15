@@ -1,0 +1,8 @@
+str = input()
+
+new_st = ""
+for ch in str:
+	if ch.isalnum() or ch.isspace() :
+		new_st = new_st + ch
+
+print(new_st)
